@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sara - Recruitment Scam Detection</title>
+<meta name="description" content="Sara checks job offers, messages, links and documents for recruitment scams.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%232563eb'/%3E%3Ctext x='32' y='46' font-size='40' font-family='Arial' font-weight='700' text-anchor='middle' fill='white'%3ES%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<canvas id="fx" aria-hidden="true"></canvas>
+<div id="shell">
+  <header id="top">
+    <a class="brand" href="#/" aria-label="Sara home"><span class="logo">S</span><span class="brand-name">Sara</span></a>
+    <nav id="nav" aria-label="Main">
+      <a href="#/" data-r="">Scan</a>
+      <a href="#/community" data-r="community">Community</a>
+      <a href="#/about" data-r="about">About</a>
+    </nav>
+    <div id="acct"></div>
+  </header>
+  <main id="app"></main>
+  <footer id="foot">&copy; <span id="yr"></span> Sara. All rights reserved. Sara provides risk estimates, not legal advice.</footer>
+</div>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="/app.js"></script>
+</body>
+</html>
